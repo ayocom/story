@@ -144,19 +144,27 @@ img {
     font-family: 'Bebas Neue', cursive;
     font-size: 1.8rem;
     animation-name: underlineNames;
-    animation-duration: 1.5s;
-    animation-direction: alternate;
+    animation-duration: 11s;
+    animation-direction: linear;
     animation-iteration-count: infinite;
 }
 
 @keyframes underlineNames {
-    0% {
-        text-decoration: underline;
-        font-weight: 900;
-    }
-
-    100% {
-        text-decoration: none;
-        font-weight: bolder;
-    }
+   50% {
+       text-decoration: underline;
+       font-size: 2rem;
+       color: gold;
+   }
 }
+
+.featureNames:nth-child(1) {animation-delay: 0.0s;}
+.featureNames:nth-child(2) {animation-delay: 0.5s;}
+.featureNames:nth-child(3) {animation-delay: 1.5s;}
+.featureNames:nth-child(4) {animation-delay: 2.0s;}
+.featureNames:nth-child(5) {animation-delay: 2.5s;}
+.featureNames:nth-child(6) {animation-delay: 3.0s;}
+.featureNames:nth-child(7) {animation-delay: 3.5s;}
+.featureNames:nth-child(8) {animation-delay: 4.0s;}
+.featureNames:nth-child(9) {animation-delay: 4.5s;}
+.featureNames:nth-child(10) {animation-delay: 5.0s;}
+.featureNames:nth-child(11) {animation-delay: 5.5s;}
